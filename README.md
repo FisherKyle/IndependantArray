@@ -46,8 +46,10 @@ Contact kyle@kylefisher.com for more information.
   * example output: "ping-pong"
 * User is given an error message their input is non numerical.
   * example input: "how do i get this ping pong thinger to work?"
-  * example output: ""
-
+  * example output: "Try again using only numbers.""
+* User is given an error message their input is less than or equal to 0.
+  * example input: "how do i get this ping pong thinger to work?"
+  * example output: ""Ping-pong will prove to be more enjoyable when counting to a number higher than 0. Please try again.
 
 ### License
 
