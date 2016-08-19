@@ -50,6 +50,13 @@ Contact kyle@kylefisher.com for more information.
 * User is given an error message their input is less than or equal to 0.
   * example input: "how do i get this ping pong thinger to work?"
   * example output: ""Ping-pong will prove to be more enjoyable when counting to a number higher than 0. Please try again.
+* User provides a number and receives each number from one until that number in a displayed list.
+  * example input: "4"
+  * example output:
+  1,
+  2,
+  ping!,
+  4
 
 ### License
 
