@@ -1,0 +1,120 @@
+body {
+	background-color: #00001a
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.wrapper {
+	margin: 0 auto;
+	text-align: left;
+	width: 1230px;
+}
+
+#headerBox {
+	background: url(gridinator.png) repeat-y 0 0;
+	clear: both;
+	display: inline;
+	float: left;
+	padding: 0 10px 0 10px;
+	position: relative;
+}
+
+.inputBox {
+	position: sticky;
+	width: 400px;
+	height: 80px;
+	padding: 0px;
+	margin: auto;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	-moz-opacity: 0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+	border-radius: 8px;
+	text-align: center;
+	margin-right: 10px;
+	background-color: #ffe5e5
+
+}
+
+h1 {
+	position: relative;
+	font-family: "Arial Rounded MT Bold";
+	font-size: 500%;
+	color: #1d2f63;
+	margin-left: 20%;
+	margin-top: 15%;
+}
+
+.container {
+	float: left;
+	position: relative;
+	width: 600px;
+	height: 100px;
+
+	border-radius: 10px;
+	padding: 20px;
+
+	margin: 60px;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.90;
+	-khtml-opacity: 0.90;
+	opacity: 0.90;
+}
+
+.resultBox {
+
+		background: rgb(204, 193, 166);
+		clear: both;
+		float: right;
+		position: relative;
+		width: 400px;
+		border-radius: 10px, 0px, 0px, 10px;
+		height: 200%;
+		min-height: 600px;
+		background-color: #d2dff9
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+		filter: alpha(opacity=90);
+		-moz-opacity: 0.90;
+		-khtml-opacity: 0.90;
+		opacity: 0.90;
+		margin-right: 0px;
+		margin-top: 5%;
+
+}
+
+.inputBox {
+	position: relative;
+
+}
+
+button {
+	background-color: #6a79af;
+	font-family: "Arial Rounded MT Bold";
+	color: #f2f6ee;
+}
+
+img {
+	width: 100%;
+  min-width: 1024px;
+	max-height: 800px;
+	position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#inputForm {
+	position: absolute;
+	margin: auto;
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+p {
+	margin-top: 10px;
+}
