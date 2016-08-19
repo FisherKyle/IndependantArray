@@ -5,7 +5,7 @@
 
 ## **//** Description
 
-Ping-Pong Number Generator is a program that takes a number provided by a user and returns all numbers from until that number. In this span of numbers, it will replace each number divisible by three with the word "ping", each number divisible by 5 with the word "pong", and each number divisible by 15 with the phrase "ping-pong".
+Ping-Pong Number Generator is a program that takes a number provided by a user and returns all numbers from until that number. In this span of numbers, it will replace each number divisible by 3 with the word "ping", each number divisible by 5 with the word "pong", and each number divisible by 15 with the phrase "ping-pong".
 
 ## **//** Installation Requirements/Instructions
 
@@ -32,9 +32,22 @@ Contact kyle@kylefisher.com for more information.
 * It can return the user input number.
   * example input: 1
   * example output: 1
-* It can return the user input number.
-  * example input: 1
-  * example output: 1
+* It can return the user input number and the number array up until that number.
+  * example input: 3
+  * example output: 1, 2, 3
+* It can take an input of 3 and replace the result with the word "ping".
+  * example input: 3
+  * example output: "ping"
+* It can take an input of 5 and replace the result with the word "pong".
+  * example input: 5
+  * example output: "pong"
+* It can take an input of 15 and replace the result with the word "pong".
+  * example input: 15
+  * example output: "ping-pong"
+* User is given an error message their input is non numerical.
+  * example input: "how do i get this ping pong thinger to work?"
+  * example output: ""
+
 
 ### License
 

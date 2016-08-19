@@ -3,14 +3,53 @@
 $(document).ready(function() {
   $("#inputForm").submit(function(event) {
     event.preventDefault();
+// debugger;
+    var userNumber = $("#userNumber").val();
 
-    var userPong = $("#userNumber").val();
-    // var output = translateSentence(userNumber);
-    console.log(userPong);
+// // Backsies
+
+
+    var pongArray = [];
+    var maxPong = parseInt(userNumber);
+
+    for (var i = 1; i <= maxPong; i++)
+        pongArray.push(i);
+
+    if (pongArray.includes(15)) {
+      $("#result").append("ping-pong!");
+    }
+    else if (pongArray.includes(3)) {
+      $("#result").append("ping!");
+    }
+    else if (pongArray.includes(5)) {
+      $("#result").append("ping!");
+    }
+
+    if(typeof userNumber === "number") {
+      $("#result").append("Try again using only numbers.");
+      else if (userNumber < 0) {
+        $("#result").append("Ping-pong will prove to be more enjoyable when counting to a number higher than 0. Please try again.");
+      }
+      ]
+
+    }else{
+   	document.write(num1 + " is not a number <br/>");
+    }
+   </scr    if (isNan(maxPong) === true ) {
+      $("#result").append();
+    }
+
+$("#result").append(pongArray);
+
   });
 });
 
-// // Backsies
+// var maxPong = $("#userNumber").val();
+// var minPong = 1;
+// while(minPong <= maxPong) {
+//    pongArray.push(minPong++);
+// }
+// var pongArray = [];
 //
 //   function determineNumber() {
 //
